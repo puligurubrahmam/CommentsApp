@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.innercard {
+  display: flex;
+  justify-content: space-between;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.name {
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  box-shadow: 0px 0px 5px #cbd2d9;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Roboto';
+}
+.comment {
+  border: 1px solid #cbd2d9;
+  margin-bottom: 15px;
+  font-size: 20px;
+  box-shadow: 0px 0px 5px #cbd2d9;
+  padding: 5px;
+  font-family: 'Roboto';
+}
+.btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  height: 38px;
+  width: 140px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.line {
+  color: #0284c7;
+}
+.para1 {
+  height: 30px;
+  background-color: #0284c7;
+  text-align: center;
+  padding-top: 2px;
+  color: #ffffff;
+  width: 30px;
+}
+.innercard2 {
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+@media screen and (max-width: 767px) {
+  .innercard {
+    flex-direction: column;
+    justify-content: none;
+  }
+  .bg {
+    padding: 20px;
+  }
+  .card1 {
+    order: 1;
+  }
+  .card2 {
+    order: 0;
+  }
+}
